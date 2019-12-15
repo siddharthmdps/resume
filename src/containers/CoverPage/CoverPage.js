@@ -8,9 +8,8 @@ class CoverPage extends Component{
     render(){
         return(
             <div className={classes.CoverPage}>
-                <div className={classes.Content}>
+                Hi, I am 
                     <CoverImage />
-                </div>
             </div>
         );
     }
