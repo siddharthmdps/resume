@@ -1,8 +1,8 @@
 .CoverPage{
     background-image: url('https://static.pexels.com/photos/131743/pexels-photo-131743.jpeg?w=1603&h=900&fit=crop&auto=compress&cs=tinysrgb');
     background-size: cover;
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    min-width: 100vw;
 }
 
 .CoverImage{
@@ -16,4 +16,32 @@
 .Image{
     border-radius: 50%;
     object-fit: cover;
+}
+
+.Introduction{
+    margin-top: 15%;
+    /* font-family: 'Fredericka the Great', cursive; */
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 4em;
+    color: #fff;
+}
+
+.More{
+    color: #fff;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 4em;
+    animation: wave 1s infinite alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes wave{
+    0%{
+        transform: translate(0px, 0px);
+    }
+    50%{
+        transform: translate(0px, 10px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
 }
