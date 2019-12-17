@@ -5,7 +5,9 @@ import { Image } from 'react-bootstrap';
 
 const coverImage = props => (
     <React.Fragment>
-        <Image src="coverlogo.jpeg"/>
+        <div className={classes.Image}>
+            <Image src="coverlogo.jpeg" className={classes.Image}/>
+        </div>
     </React.Fragment>
 
 );
