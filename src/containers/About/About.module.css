@@ -1,0 +1,22 @@
+.About{
+    background-image: url('./Background.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-attachment: fixed;
+}
+
+.CoverImage{
+    /* margin-top: 10%; */
+    /* background-color: black; */
+}
+
+.Image{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.AboutMe{
+    color: #fff;
+    text-align: center;
+}

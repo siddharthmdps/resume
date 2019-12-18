@@ -3,27 +3,16 @@
     background-size: cover;
     min-height: 100vh;
     min-width: 100vw;
-}
-
-.CoverImage{
-    margin-top: 10%;
-}
-
-.RightSide{
-    background-color: yellow;
-}
-
-.Image{
-    border-radius: 50%;
-    object-fit: cover;
+    background-attachment: fixed;
 }
 
 .Introduction{
     margin-top: 15%;
     /* font-family: 'Fredericka the Great', cursive; */
     font-family: 'Cabin Sketch', cursive;
-    font-size: 4em;
+    font-size: 3em;
     color: #fff;
+    text-align: center;    
 }
 
 .More{
@@ -32,6 +21,8 @@
     font-size: 4em;
     animation: wave 1s infinite alternate;
     animation-timing-function: linear;
+    text-align: center;
+    position: relative;
 }
 
 @keyframes wave{
@@ -45,3 +36,4 @@
         transform: translate(0px, 0px);
     }
 }
+

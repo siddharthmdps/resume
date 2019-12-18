@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import classes from './CoverPage.module.css';
 
-import CoverImage from '../../components/CoverImage/CoverImage';
-
 import { Container, Row, Col, ResponsiveEmbed, Image } from 'react-bootstrap';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
@@ -23,13 +21,21 @@ class CoverPage extends Component{
                         </ResponsiveEmbed> */}
                     </Col>
                     <Col md={{offset:2, span:5}} className={classes.Introduction}>
-                    HI, I AM <br />
-                    <span style={{fontWeight: 'bolder'}}>SIDDHARTH SINGH</span>
+                        HI, I'M 
+                        <br/>
+                        <span style={{fontWeight: 'bolder'}}> SIDDHARTH SINGH </span>                    
+                        <br/>
+                        <span style={{textDecoration: 'line-through'}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span style={{fontWeight: 'bolder'}}> Developer </span>
+                        <span style={{textDecoration: 'line-through'}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <br/>
+                        <br/>
+                        <span style={{fontWeight: 'bolder'}}> Welcome to my website </span>
                     </Col>
                 </Row>
                 <Row>
-                    <Col md={{offset:7, span:5}} className={classes.More}>
-                        <ExpandMoreIcon style={{ fontSize: '2em'}} />
+                    <Col md={{offset:6, span:5}} className={classes.More}>
+                        <ExpandMoreIcon style={{ fontSize: '2em'}} onClick={()=>{alert('Hello')}}/>
                     </Col>
                 </Row>
             </Container>
