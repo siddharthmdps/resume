@@ -1,0 +1,16 @@
+.Contact{
+    background-image: url('https://static.pexels.com/photos/461944/pexels-photo-461944.jpeg?w=1440&h=904&fit=crop&auto=compress&cs=tinysrgb');
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.Card{
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.ContactInfo{
+    font-size: 2em;
+}

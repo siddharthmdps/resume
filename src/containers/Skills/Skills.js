@@ -26,8 +26,8 @@ class Skills extends Component{
     render(){
         return(
             <Container fluid className={classes.Skills}>
-                {/* <Card className={classes.Card}> */}
-                <div className={classes.Card}>
+                <Card className={classes.Card}>
+                <div>
                     {this.keys.map(key => (
                         <React.Fragment>
                         <h1>{key}</h1>
@@ -35,10 +35,11 @@ class Skills extends Component{
                             <Button>{items}</Button>
                         ))}
                         <br/>           
+                        <br/>           
                         </React.Fragment>             
                     ))}                
                 </div>
-                {/* </Card> */}
+                </Card>
             </Container>
         );
     }
