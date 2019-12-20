@@ -26,7 +26,7 @@ class About extends Component{
                         <Card className={classes.Card}>
                             <Card.Title className={classes.CardTitle}>About Me</Card.Title>
                             <Card.Body>
-                                Namaste 🙏, I am a graduate from University of Wollongong. I finished my Bachelors in Computer Science.
+                                Namaste <span role="img" aria-label="">🙏</span>, I am a graduate from University of Wollongong. I finished my Bachelors in Computer Science.
 
                             </Card.Body>
 
@@ -40,7 +40,7 @@ class About extends Component{
                         <Card className={classes.Card}>
                             <Card.Title className={classes.CardTitle}>About Me</Card.Title>
                             <Card.Body>
-                                Namaste 🙏, I am a graduate from University of Wollongong. I finished my Bachelors in Computer Science.
+                                Namaste <span role="img" aria-label="">🙏</span>, I am a graduate from University of Wollongong. I finished my Bachelors in Computer Science.
 
                             </Card.Body>
 
@@ -50,7 +50,7 @@ class About extends Component{
                         <Card className={classes.Card}>
                             <Card.Title className={classes.CardTitle}>About Me</Card.Title>
                             <Card.Body>
-                                Namaste 🙏, I am a graduate from University of Wollongong. I finished my Bachelors in Computer Science.
+                                Namaste <span role="img" aria-label="">🙏</span>, I am a graduate from University of Wollongong. I finished my Bachelors in Computer Science.
 
                             </Card.Body>
 
@@ -60,7 +60,7 @@ class About extends Component{
                         <Card className={classes.Card}>
                             <Card.Title className={classes.CardTitle}>About Me</Card.Title>
                             <Card.Body>
-                                Namaste 🙏, I am a graduate from University of Wollongong. I finished my Bachelors in Computer Science.
+                                Namaste <span role="img" aria-label="">🙏</span>, I am a graduate from University of Wollongong. I finished my Bachelors in Computer Science.
 
                             </Card.Body>
 

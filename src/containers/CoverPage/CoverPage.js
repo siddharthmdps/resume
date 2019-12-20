@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import classes from './CoverPage.module.css';
 
-import { Container, Row, Col, ResponsiveEmbed, Image } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 class CoverPage extends Component{
@@ -9,16 +9,8 @@ class CoverPage extends Component{
     render(){
         return(
             <Container fluid className={classes.CoverPage}>
-                {/* <Row>
-                    <Col md={8}>
-                        <CoverImage />
-                    </Col>
-                </Row> */}
                 <Row>
                     <Col md={{offset:1, span:3}} className={classes.CoverImage}>
-                    {/* <ResponsiveEmbed aspectRatio="1by1">
-                            <Image src="./Photo.jpeg" className={classes.Image} />
-                        </ResponsiveEmbed> */}
                     </Col>
                     <Col md={{offset:2, span:5}} className={classes.Introduction}>
                         HI, I'M 

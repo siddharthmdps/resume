@@ -1,9 +1,10 @@
 import React from 'react';
+import classes from './Banner.module.css';
 
 const banner = props => (
-    <React.Fragment>
-        {props.Heading}
-    </React.Fragment>
+    <div className={classes.Banner}>
+        {props.children}
+    </div>
 );
 
 export default banner;
