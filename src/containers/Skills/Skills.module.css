@@ -1,0 +1,12 @@
+.Skills{
+    background-image: url('https://farm8.staticflickr.com/7320/9319107617_ff0eb5f2f6_k.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.Card{
+    background: rgba(0, 0, 0, 0.2);
+}
