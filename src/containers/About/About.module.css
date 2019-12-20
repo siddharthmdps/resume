@@ -20,3 +20,14 @@
     color: #fff;
     text-align: center;
 }
+
+.Card{
+    background-color: rgba(245, 245, 245, 0.1);
+    font-family: 'Aldrich', sans-serif;
+}
+
+.CardTitle{
+    margin: 10px;
+    border-bottom-color: rgb(255,255,255);
+    border-bottom: 3px solid blue;    
+}

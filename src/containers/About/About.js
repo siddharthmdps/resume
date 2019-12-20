@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import classes from './About.module.css';
 
-import { Container, Row, Col, ResponsiveEmbed, Image } from 'react-bootstrap';
+import { Container, Row, Col, ResponsiveEmbed, Image, Card } from 'react-bootstrap';
 
 import CoverImage from '../../components/CoverImage/CoverImage';
 
@@ -14,6 +14,8 @@ class About extends Component{
                         <CoverImage />
                     </Col>
                 </Row>
+                <br/>
+                <br/>
                 <Row>
                     <Col md={{offset:1, span:3}}>
                         <ResponsiveEmbed aspectRatio="1by1">
@@ -21,9 +23,48 @@ class About extends Component{
                         </ResponsiveEmbed>
                     </Col>
                     <Col md={{offset:1, span:6}} className={classes.AboutMe}>
-                    Abput Me
-                    <br/>
-                    Namaste 🙏, I am a graduate from University of Wollongong. I finished my Bachelors in Computer Science.
+                        <Card className={classes.Card}>
+                            <Card.Title className={classes.CardTitle}>About Me</Card.Title>
+                            <Card.Body>
+                                Namaste 🙏, I am a graduate from University of Wollongong. I finished my Bachelors in Computer Science.
+
+                            </Card.Body>
+
+                        </Card>
+                    </Col>
+                </Row>
+                <br/>
+                <br/>
+                <Row>
+                    <Col md={{offset: 1, span: 3}} className={classes.AboutMe}>
+                        <Card className={classes.Card}>
+                            <Card.Title className={classes.CardTitle}>About Me</Card.Title>
+                            <Card.Body>
+                                Namaste 🙏, I am a graduate from University of Wollongong. I finished my Bachelors in Computer Science.
+
+                            </Card.Body>
+
+                        </Card>
+                    </Col>
+                    <Col md={{offset: 1, span: 3}} className={classes.AboutMe}>
+                        <Card className={classes.Card}>
+                            <Card.Title className={classes.CardTitle}>About Me</Card.Title>
+                            <Card.Body>
+                                Namaste 🙏, I am a graduate from University of Wollongong. I finished my Bachelors in Computer Science.
+
+                            </Card.Body>
+
+                        </Card>
+                    </Col>
+                    <Col md={{offset: 1, span: 3}} className={classes.AboutMe}>
+                        <Card className={classes.Card}>
+                            <Card.Title className={classes.CardTitle}>About Me</Card.Title>
+                            <Card.Body>
+                                Namaste 🙏, I am a graduate from University of Wollongong. I finished my Bachelors in Computer Science.
+
+                            </Card.Body>
+
+                        </Card>
                     </Col>
                 </Row>
             </Container>
