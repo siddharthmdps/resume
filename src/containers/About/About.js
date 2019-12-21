@@ -26,8 +26,8 @@ class About extends Component{
                         <Card className={classes.Card}>
                             <Card.Title className={classes.CardTitle}>About Me</Card.Title>
                             <Card.Body>
-                            Namaste <span role="img" aria-label="">🙏</span>, I am Siddharth Singh and I was born and brought up in India 🇮🇳. 
-                            After my 12th grade I came to Singapore 🇸🇬 for my undergraduate degree. 
+                            Namaste 🙏, I am Siddharth Singh and I was born and brought up in India 🇮🇳. 
+                            After my 12th grade I came to Singapore 🇸🇬 for my undergraduate studies. 
                             Currently, I am a graduate with degree in Bachelors of Computer Science from University of Wollongong. 
                             I am passionate about technology and I like to keep myself updated with the new trends and learn new skills. 
                             I enjoy problem-solving and program/debug solutions.
@@ -63,8 +63,8 @@ class About extends Component{
                             <Card.Title className={classes.CardTitle}>Hobbies</Card.Title>
                             <Card.Body>
                                 During my free time, I like to hang out with my friends, explore new places and different cuisines. 
-                                I enjoy bowling and playing cricket. 
-
+                                I enjoy bowling and playing cricket.
+                                At home, I play e-Sports like PUBG with friends or else Netflix and Chill.
                             </Card.Body>
 
                         </Card>

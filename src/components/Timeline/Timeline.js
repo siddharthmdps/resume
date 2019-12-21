@@ -15,7 +15,7 @@ const timeline = props =>(
             <VerticalTimelineElement
                 className={classes.EduTab}
                 contentStyle={{
-                    background: 'rgba(0, 0, 0, 0.4)', color: 'white', borderTop: '3px solid #00FF99',
+                    background: 'rgba(0, 0, 0, 0.8)', color: '#00FF99', borderTop: '3px solid #00FF99',
                     boxShadow: '0px 2px 14px 2px rgba(148,140,148,1)'
                 }}
                 contentArrowStyle={{ borderRight: '7px solid  #00FF33' }}
@@ -25,9 +25,11 @@ const timeline = props =>(
             >
                 <h3>{TimelineElement.Title}</h3>
                 <h4>{TimelineElement.SubTitle}</h4>
-                <p>
-                    {TimelineElement.Description}
-                </p>
+                <div>
+                    <pre className={classes.Description}>
+                        {TimelineElement.Description}
+                    </pre>
+                </div>
             </VerticalTimelineElement>
         ))}           
 
