@@ -5,9 +5,6 @@ import { Container } from 'react-bootstrap';
 
 import Timeline from '../../components/Timeline/Timeline';
 
-import StarIcon from '@material-ui/icons/Star';
-import SchoolIcon from '@material-ui/icons/School';
-
 
 class Education extends Component{
     render(){

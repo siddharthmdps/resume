@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './App.module.css';
+import './App.css';
 
 import Banner from './components/Banner/Banner';
 import CoverPage from './containers/CoverPage/CoverPage';

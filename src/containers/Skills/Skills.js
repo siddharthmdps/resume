@@ -3,11 +3,7 @@ import classes from './Skills.module.css';
 
 import { Container, Card } from 'react-bootstrap';
 
-import Timeline from '../../components/Timeline/Timeline';
 import Button from '../../components/Button1/Button1';
-
-import StarIcon from '@material-ui/icons/Star';
-import SchoolIcon from '@material-ui/icons/School';
 
 const SkillsList = {
     "Programming Languages": ["JavaScript", "Java", "C#", "C++", "C", "Bash"],

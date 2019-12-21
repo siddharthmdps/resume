@@ -1,5 +1,5 @@
 .About{
-    background-image: url('./Background.jpg');
+    background-image: url('https://farm3.staticflickr.com/2810/33904805505_9d3da339eb_k.jpg');
     background-size: cover;
     min-height: 100vh;
     min-width: 100vw;
@@ -16,14 +16,13 @@
     object-fit: cover;
 }
 
-.AboutMe{
-    color: #fff;
-    text-align: center;
-}
+
 
 .Card{
-    background-color: rgba(245, 245, 245, 0.1);
+    background-color: rgba(0, 0, 0, 0.5);
     font-family: 'Aldrich', sans-serif;
+    color: #fff;
+    text-align: center;
 }
 
 .CardTitle{

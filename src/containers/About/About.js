@@ -22,12 +22,15 @@ class About extends Component{
                             <Image src="./Photo.jpeg" className={classes.Image} />
                         </ResponsiveEmbed>
                     </Col>
-                    <Col md={{offset:1, span:6}} className={classes.AboutMe}>
+                    <Col md={{offset:1, span:6}}>
                         <Card className={classes.Card}>
                             <Card.Title className={classes.CardTitle}>About Me</Card.Title>
                             <Card.Body>
-                                Namaste <span role="img" aria-label="">🙏</span>, I am a graduate from University of Wollongong. I finished my Bachelors in Computer Science.
-
+                            Namaste <span role="img" aria-label="">🙏</span>, I am Siddharth Singh and I was born and brought up in India 🇮🇳. 
+                            After my 12th grade I came to Singapore 🇸🇬 for my undergraduate degree. 
+                            Currently, I am a graduate with degree in Bachelors of Computer Science from University of Wollongong. 
+                            I am passionate about technology and I like to keep myself updated with the new trends and learn new skills. 
+                            I enjoy problem-solving and program/debug solutions.
                             </Card.Body>
 
                         </Card>
@@ -36,7 +39,16 @@ class About extends Component{
                 <br/>
                 <br/>
                 <Row>
-                    <Col md={{offset: 1, span: 3}} className={classes.AboutMe}>
+                    <Col md={{offset: 1, span: 3}}>
+                        <Card className={classes.Card}>
+                            <Card.Title className={classes.CardTitle}>Journey</Card.Title>
+                            <Card.Body>
+                                I started out programming when I was a 6th grade high school student. I was quite intrigued by some of 11th grade students doing programming around me. So, I decided to give it a try and learn C and I got hooked for life.
+                            </Card.Body>
+
+                        </Card>
+                    </Col>
+                    <Col md={{offset: 1, span: 3}}>
                         <Card className={classes.Card}>
                             <Card.Title className={classes.CardTitle}>About Me</Card.Title>
                             <Card.Body>
@@ -46,21 +58,12 @@ class About extends Component{
 
                         </Card>
                     </Col>
-                    <Col md={{offset: 1, span: 3}} className={classes.AboutMe}>
+                    <Col md={{offset: 1, span: 3}}>
                         <Card className={classes.Card}>
-                            <Card.Title className={classes.CardTitle}>About Me</Card.Title>
+                            <Card.Title className={classes.CardTitle}>Hobbies</Card.Title>
                             <Card.Body>
-                                Namaste <span role="img" aria-label="">🙏</span>, I am a graduate from University of Wollongong. I finished my Bachelors in Computer Science.
-
-                            </Card.Body>
-
-                        </Card>
-                    </Col>
-                    <Col md={{offset: 1, span: 3}} className={classes.AboutMe}>
-                        <Card className={classes.Card}>
-                            <Card.Title className={classes.CardTitle}>About Me</Card.Title>
-                            <Card.Body>
-                                Namaste <span role="img" aria-label="">🙏</span>, I am a graduate from University of Wollongong. I finished my Bachelors in Computer Science.
+                                During my free time, I like to hang out with my friends, explore new places and different cuisines. 
+                                I enjoy bowling and playing cricket. 
 
                             </Card.Body>
 

@@ -4,7 +4,7 @@ import classes from './Timeline.module.css';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
-import StarIcon from '@material-ui/icons/Star';
+import CodeIcon from '@material-ui/icons/Code';
 import SchoolIcon from '@material-ui/icons/School';
 
 const timeline = props =>(
@@ -33,7 +33,7 @@ const timeline = props =>(
 
         <VerticalTimelineElement
         iconStyle={{ background: '#9900FF', color: '#fff' }}
-        icon={<StarIcon />}
+        icon={<CodeIcon />}
         />
         
     </VerticalTimeline>
