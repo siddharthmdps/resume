@@ -7,8 +7,10 @@ import 'react-vertical-timeline-component/style.min.css';
 import CodeIcon from '@material-ui/icons/Code';
 import SchoolIcon from '@material-ui/icons/School';
 
+const animate = window.screen.width>992;
+
 const timeline = props =>(
-    <VerticalTimeline className={classes.verticalTimeline}>
+    <VerticalTimeline className={classes.verticalTimeline} animate={animate}>
 
         {props.Timeline.List.map(TimelineElement => (
 
