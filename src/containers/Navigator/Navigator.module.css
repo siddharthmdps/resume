@@ -1,0 +1,30 @@
+.Navigator{
+    position:fixed;
+    width:150px;
+    height:180px;
+    left:10px;
+    bottom: 100px;
+    border: 6px solid #fff;
+    border-top: 2px solid transparent;
+    background: url('https://cdn.iconscout.com/icon/premium/png-256-thumb/water-wave-4-659434.png');
+    background-repeat: repeat-x;
+    animation: wave 4s linear infinite;
+}
+
+@keyframes wave{
+    0%{
+        background-position: 0 100px;
+    }
+    10%{
+        background-position: 0 100px;
+    }
+    40%{
+        background-position: 1000 -70px;
+    }
+    80%{
+        background-position: 2000 -80px;
+    }
+    100%{
+        background-position: 2500 100px;
+    }
+}

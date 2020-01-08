@@ -25,9 +25,16 @@ Scholarship Award 2016 – PSB Academy Scholarship Test`
 ];
 
 class Education extends Component{
+    constructor(props){
+        super(props);
+        this.myRef = React.createRef();
+    }
+    // componentDidMount(){
+    //     this.props.updateRef(this.myRef, "EducationRef");
+    // }
     render(){
         return(
-            <Container fluid className={classes.Education}>
+            <Container fluid className={classes.Education} ref={this.myRef}>
                     <Timeline Timeline={{ List: EducationList}} />
             </Container>
         );

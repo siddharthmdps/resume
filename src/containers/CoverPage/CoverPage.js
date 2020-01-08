@@ -27,7 +27,7 @@ class CoverPage extends Component{
                 </Row>
                 <Row>
                     <Col md={{offset:6, span:5}} className={classes.More}>
-                        <ExpandMoreIcon style={{ fontSize: '2em'}} onClick={()=>{alert('Hello')}}/>
+                        <ExpandMoreIcon style={{ fontSize: '2em'}} onClick={()=>{ this.props.goToPage("AboutRef")}}/>
                     </Col>
                 </Row>
             </Container>

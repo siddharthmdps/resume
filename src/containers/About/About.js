@@ -6,9 +6,16 @@ import { Container, Row, Col, ResponsiveEmbed, Image, Card } from 'react-bootstr
 import CoverImage from '../../components/CoverImage/CoverImage';
 
 class About extends Component{
+    constructor(props){
+        super(props);
+        this.myRef = React.createRef();
+    }
+    componentDidMount(){
+        this.props.updateRef(this.myRef, "AboutRef");
+    }
     render(){
         return(
-            <Container fluid className={classes.About}>
+            <Container fluid className={classes.About} ref={this.myRef}>
                 <Row>
                     <Col md={8}>
                         <CoverImage />
@@ -27,7 +34,7 @@ class About extends Component{
                             <Card.Title className={classes.CardTitle}>About Me</Card.Title>
                             <Card.Body>
                             Namaste 🙏, I am Siddharth Singh and I was born and brought up in India 🇮🇳. 
-                            After my 12th grade I came to Singapore 🇸🇬 for my undergraduate studies. 
+                            After my 12th grade I came to Singapore 🇸🇬 for further studies. 
                             Currently, I am a graduate with degree in Bachelors of Computer Science from University of Wollongong. 
                             I am passionate about technology and I like to keep myself updated with the new trends and learn new skills. 
                             I enjoy problem-solving and program/debug solutions.
@@ -43,7 +50,7 @@ class About extends Component{
                         <Card className={classes.Card}>
                             <Card.Title className={classes.CardTitle}>Journey</Card.Title>
                             <Card.Body>
-                                I started out programming when I was a 6th grade high school student. I was quite intrigued by some of 11th grade students doing programming around me. So, I decided to give it a try and learn C and I got hooked for life.
+                                I started out programming when I was a 6th grade high school student. I was quite intrigued by some of 11th grade students doing programming around me. So, I decided to give it a try and learn C and next thing I know, I have deeloped interest for programming.
                             </Card.Body>
 
                         </Card>
