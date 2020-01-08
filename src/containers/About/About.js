@@ -57,9 +57,9 @@ class About extends Component{
                     </Col>
                     <Col md={{offset: 1, span: 3}}>
                         <Card className={classes.Card}>
-                            <Card.Title className={classes.CardTitle}>About Me</Card.Title>
+                            <Card.Title className={classes.CardTitle}>Passion</Card.Title>
                             <Card.Body>
-                                Namaste <span role="img" aria-label="">🙏</span>, I am a graduate from University of Wollongong. I finished my Bachelors in Computer Science.
+                                My passion for programming motivates me to learn new languages and experiment with different elements. Once, I took a course on Embedded System and Programming and programmed a robot that can move on commands from laptop through bluetooth.
 
                             </Card.Body>
 
