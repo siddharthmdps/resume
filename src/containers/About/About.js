@@ -71,7 +71,6 @@ class About extends Component{
                             <Card.Body>
                                 During my free time, I like to hang out with my friends, explore new places and different cuisines. 
                                 I enjoy bowling and playing cricket.
-                                At home, I play e-Sports like PUBG with friends or else Netflix and Chill.
                             </Card.Body>
 
                         </Card>
